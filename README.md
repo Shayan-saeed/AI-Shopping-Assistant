@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Shopping Assistant 🛍️🤖
 
-## Getting Started
+## Overview
+The AI Shopping Assistant is an intelligent chatbot designed to enhance the online shopping experience through conversational AI. It engages with customers in a natural dialogue, extracts product preferences from their responses, and provides personalized product recommendations. The assistant can also attempt to upsell or cross-sell by suggesting complementary items.
 
-First, run the development server:
+This project is built using React (Next.js) for the frontend and OpenAI’s API for AI-powered conversation handling and product recommendations.
 
-```bash
+## 🛠️ Tech Stack
+Frontend: React (Next.js), Tailwind CSS
+Backend: None (AI logic handled via OpenAI API)
+AI Model: OpenAI GPT-4o-mini (can be updated to another model)
+Database: (Optional) Firebase/Supabase for chat history persistence
+Deployment: Vercel (for frontend)
+
+## 🚀 Features
+✅ Natural conversational shopping experience
+✅ AI-powered product recommendations based on context
+✅ Upselling and cross-selling capabilities
+✅ Interactive chat UI for a seamless experience
+✅ Easily extendable with voice support (future updates)
+
+## 🔧 Setup & Installation
+
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/ai-shopping-assistant.git
+cd ai-shopping-assistant
+
+2️⃣ Install Dependencies
+bash
+Copy
+Edit
+npm install
+
+3️⃣ Set Up Environment Variables
+Create a .env.local file in the root directory and add your OpenAI API key:
+plaintext
+Copy
+Edit
+NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
+Note: Get your OpenAI API key from OpenAI's platform.
+
+4️⃣ Run the Development Server
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The app will be available at http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Customization
+To change the product list: Update the predefined product catalog in products.js.
+To modify AI responses: Adjust the system prompt inside ChatComponent.jsx.
+To integrate a database: Implement Firebase or Supabase for storing chat history.
+📌 Future Enhancements
+🔹 Voice-to-text support for audio-based conversations
+🔹 Product comparison and real-time stock checking
+🔹 Multi-language support for global accessibility
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🤝 Contributing
+Feel free to fork the repo and submit pull requests! Contributions are welcome to improve features, UI, and integrations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+This project is open-source under the MIT License.
