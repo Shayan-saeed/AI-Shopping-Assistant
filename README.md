@@ -25,8 +25,8 @@ Deployment: Vercel (for frontend)
 bash
 Copy
 Edit
-git clone https://github.com/your-username/ai-shopping-assistant.git
-cd ai-shopping-assistant
+git clone [https://github.com/Shayan-saeed/ai-shopping-assistant.git](https://github.com/Shayan-saeed/AI-Shopping-Assistant.git)
+cd ai-chatbot
 
 2️⃣ Install Dependencies
 bash
