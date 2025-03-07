@@ -22,41 +22,20 @@ Deployment: Vercel (for frontend)
 ## 🔧 Setup & Installation
 
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
+
 git clone [https://github.com/Shayan-saeed/ai-shopping-assistant.git](https://github.com/Shayan-saeed/AI-Shopping-Assistant.git)
 cd ai-chatbot
 
+
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
+
 npm install
 
-3️⃣ Set Up Environment Variables
-Create a .env.local file in the root directory and add your OpenAI API key:
-plaintext
-Copy
-Edit
-NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
-Note: Get your OpenAI API key from OpenAI's platform.
 
-4️⃣ Run the Development Server
-bash
-Copy
-Edit
+3️⃣ Run the Development Server
+
 npm run dev
 The app will be available at http://localhost:3000
-
-## 🛠️ Customization
-To change the product list: Update the predefined product catalog in products.js.
-To modify AI responses: Adjust the system prompt inside ChatComponent.jsx.
-To integrate a database: Implement Firebase or Supabase for storing chat history.
-📌 Future Enhancements
-🔹 Voice-to-text support for audio-based conversations
-🔹 Product comparison and real-time stock checking
-🔹 Multi-language support for global accessibility
 
 ## 🤝 Contributing
 Feel free to fork the repo and submit pull requests! Contributions are welcome to improve features, UI, and integrations.
